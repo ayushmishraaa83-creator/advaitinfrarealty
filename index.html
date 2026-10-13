@@ -7,11 +7,11 @@
 <meta name="description" content="Advait Infra Realty: real estate consultancy, map approval assistance, construction, plot completion, interior design and renovation in Noida. Request a consultation.">
 <meta name="color-scheme" content="light">
 <style>
-:root{--navy:#0b1e3f;--navy2:#13294f;--gold:#c9a24a;--gold2:#e4c784;--white:#fff;--ivory:#f7f4ec;--ink:#1c2535;--mute:#55607a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--serif:"Times New Roman",Times,serif;--sans:"Times New Roman",Times,serif;--navy:#0b1e3f;--navy2:#13294f;--gold:#c9a24a;--gold2:#e4c784;--white:#fff;--ivory:#f7f4ec;--ink:#1c2535;--mute:#55607a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-behavior:smooth;scroll-padding-top:calc(84px + env(safe-area-inset-top,0px))}
-body{margin:0;background:#fff;color:var(--ink);font:17px/1.65 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
-h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:600;line-height:1.2;margin:0 0 .5em;color:var(--navy)}
+body{margin:0;background:#fff;color:var(--ink);font:18px/1.7 var(--sans)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2;margin:0 0 .5em;color:var(--navy)}
 a{color:inherit}
 .wrap{max-width:1140px;margin:0 auto;padding:0 22px}
 section{padding:96px 0}
@@ -26,8 +26,8 @@ h2{font-size:clamp(1.9rem,4vw,2.7rem)}
 /* nav */
 header{position:sticky;top:0;z-index:50;background:rgba(11,30,63,.96);backdrop-filter:blur(8px);padding-top:env(safe-area-inset-top,0px)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:78px}
-.brand{color:#fff;text-decoration:none;font-family:Georgia,serif;font-size:1.25rem;letter-spacing:.04em;line-height:1.1}
-.brand{display:flex;align-items:center;gap:12px}.logo{display:block;background:#fff;border-radius:10px;padding:2px;width:62px;height:62px}.flogo{display:block;margin:0 auto 18px;width:150px;height:150px;background:#fff;border-radius:14px;padding:4px}.brand small{display:block;color:var(--gold);font:600 .6rem/1.4 "Segoe UI",sans-serif;letter-spacing:.3em;text-transform:uppercase}
+.brand{color:#fff;text-decoration:none;font-family:var(--serif);font-size:1.25rem;letter-spacing:.04em;line-height:1.1}
+.brand{display:flex;align-items:center;gap:12px}.logo{display:block;background:#fff;border-radius:10px;padding:2px;width:62px;height:62px}.flogo{display:block;margin:0 auto 18px;width:150px;height:150px;background:#fff;border-radius:14px;padding:4px}.brand small{display:block;color:var(--gold);font:600 .6rem/1.4 var(--sans);letter-spacing:.3em;text-transform:uppercase}
 nav ul{list-style:none;display:flex;gap:26px;margin:0;padding:0;align-items:center}
 nav a{color:#e9edf6;text-decoration:none;font-size:.95rem}nav a:hover{color:var(--gold2)}
 nav .btn{padding:9px 20px;color:var(--navy)}
@@ -38,7 +38,7 @@ nav .btn{padding:9px 20px;color:var(--navy)}
 .hero h1{color:#fff;font-size:clamp(2.3rem,5.5vw,4rem)}
 .hero h1 em{color:var(--gold2);font-style:normal}
 .hero p{color:#cfd7e8;font-size:1.12rem;max-width:520px}
-.tag{font-family:Georgia,serif;font-style:italic;color:var(--gold2);margin-bottom:26px;display:block}
+.tag{font-family:var(--serif);font-style:italic;color:var(--gold2);margin-bottom:26px;display:block}
 .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
 .art{position:relative}
 .art img,.art svg{width:100%;height:auto;display:block;border-radius:18px;border:1px solid rgba(201,162,74,.5)}
@@ -53,7 +53,7 @@ nav .btn{padding:9px 20px;color:var(--navy)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:24px;margin-top:44px}
 .card{background:#fff;border-radius:14px;padding:32px 28px;box-shadow:0 8px 30px rgba(11,30,63,.07);border-top:3px solid var(--gold);transition:.3s}
 .card:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(11,30,63,.13)}
-.card .ic{width:48px;height:48px;border-radius:50%;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-family:Georgia,serif;font-size:1.2rem;margin-bottom:18px}
+.card .ic{width:48px;height:48px;border-radius:50%;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-family:var(--serif);font-size:1.2rem;margin-bottom:18px}
 .card h3{font-size:1.25rem}.card p{margin:0;color:var(--mute);font-size:.97rem}.more{color:var(--navy);font-weight:700;text-decoration:none;border-bottom:2px solid var(--gold)}
 .realty{background:#fff}.sh{font-size:1.4rem;margin:44px 0 18px}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
@@ -63,8 +63,8 @@ nav .btn{padding:9px 20px;color:var(--navy)}
 .two,.vm{display:grid;grid-template-columns:1fr 1fr;gap:44px}
 .vm{margin-top:50px}.vm>div{background:var(--navy);color:#cfd7e8;padding:30px;border-radius:12px}.vm h3{color:var(--gold2)}.vm p{margin:0}
 .rband{margin-top:50px;text-align:center;background:var(--ivory);border-radius:14px;padding:40px 22px;border:1px solid var(--gold)}
-.rband b{display:block;font-family:Georgia,serif;font-size:1.6rem;color:var(--navy);margin-bottom:10px}.rband span{display:block;color:var(--mute);font-weight:600;letter-spacing:.04em}
-.alt{background:var(--ivory)}.alt .pc,.alt .rband{background:#fff}.tbl{overflow-x:auto;border-radius:10px;border:1px solid var(--gold)}.tbl table{width:100%;border-collapse:collapse;background:#fff;min-width:300px}.tbl th{background:var(--navy);color:#fff;text-align:left;padding:14px 18px}.tbl td{padding:14px 18px;border-top:1px solid #e6e1d2}.tbl th:last-child,.tbl td:last-child{text-align:right;font-weight:700;color:var(--navy);white-space:nowrap}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.tagl{font-family:Georgia,serif;font-style:italic;color:var(--gold);font-size:1.2rem;margin:-4px 0 0}.pc p{margin:0 0 10px;font-size:.96rem;color:var(--mute)}.rband a{color:var(--navy);font-weight:700}.eb-lg{font-size:clamp(1.2rem,3.4vw,1.75rem);letter-spacing:.12em;margin-bottom:10px}.sub{display:block;color:var(--gold);font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin:-6px 0 14px}.svc{border-top:1px solid #e6e1d2;padding:14px 0 4px;margin-top:10px}.svc h4{margin:0 0 4px;font-size:1.02rem;color:var(--navy)}
+.rband b{display:block;font-family:var(--serif);font-size:1.6rem;color:var(--navy);margin-bottom:10px}.rband span{display:block;color:var(--mute);font-weight:600;letter-spacing:.04em}
+.alt{background:var(--ivory)}.alt .pc,.alt .rband{background:#fff}.tbl{overflow-x:auto;border-radius:10px;border:1px solid var(--gold)}.tbl table{width:100%;border-collapse:collapse;background:#fff;min-width:300px}.tbl th{background:var(--navy);color:#fff;text-align:left;padding:14px 18px}.tbl td{padding:14px 18px;border-top:1px solid #e6e1d2}.tbl th:last-child,.tbl td:last-child{text-align:right;font-weight:700;color:var(--navy);white-space:nowrap}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.tagl{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.2rem;margin:-4px 0 0}.pc p{margin:0 0 10px;font-size:.96rem;color:var(--mute)}.rband a{color:var(--navy);font-weight:700}.eb-lg{font-size:clamp(1.2rem,3.4vw,1.75rem);letter-spacing:.12em;margin-bottom:10px}.sub{display:block;color:var(--gold);font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin:-6px 0 14px}.svc{border-top:1px solid #e6e1d2;padding:14px 0 4px;margin-top:10px}.svc h4{margin:0 0 4px;font-size:1.02rem;color:var(--navy)}
 /* gallery */
 .tabs{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0}
 .tab{border:1.5px solid var(--navy);background:#fff;color:var(--navy);padding:9px 22px;border-radius:999px;font-weight:600;cursor:pointer;font-family:inherit;font-size:.95rem}
@@ -79,7 +79,7 @@ nav .btn{padding:9px 20px;color:var(--navy)}
 .process{background:var(--navy);color:#fff}
 .process h2{color:#fff}.process .lead{color:#cfd7e8}
 .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:48px;counter-reset:s;list-style:none;padding:0}
-.steps li{counter-increment:s;position:relative;padding-top:64px;font-family:Georgia,serif;font-size:1.15rem}
+.steps li{counter-increment:s;position:relative;padding-top:64px;font-family:var(--serif);font-size:1.15rem}
 .steps li::before{content:counter(s);position:absolute;top:0;left:0;width:48px;height:48px;border-radius:50%;border:2px solid var(--gold);color:var(--gold2);display:grid;place-items:center}
 .steps li::after{content:"";position:absolute;top:24px;left:60px;right:-10px;height:1px;background:rgba(201,162,74,.5)}
 .steps li:last-child::after{display:none}
@@ -115,6 +115,18 @@ footer b{color:var(--gold2)}
  body{padding-bottom:70px}
 }
 @media (max-width:520px){.pillars{grid-template-columns:1fr}form{padding:22px}}
+
+body{text-align:left;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3{text-wrap:balance;letter-spacing:-.005em}
+p,li{text-wrap:pretty}
+.lead{max-width:760px;margin:0 0 1em}
+.eyebrow{font-family:var(--sans)}
+a,.pc li,.why li,.box p,.rband span{overflow-wrap:anywhere}
+button,input,select,textarea{font-family:var(--sans)}
+.pc,.card{display:flex;flex-direction:column}.pc ul{flex:1}
+.pgrid,.grid,.two,.vm{align-items:stretch}.two{align-items:start}
+.steps li{font-family:var(--serif)}
+.eyebrow{font-size:clamp(1.1rem,2.8vw,1.45rem);letter-spacing:.14em;margin-bottom:14px}.eb-lg{font-size:clamp(1.3rem,3.6vw,1.9rem);letter-spacing:.12em}.tag{font-size:clamp(1.3rem,3vw,1.7rem);margin-bottom:22px}
 </style>
 </head>
 <body>
@@ -137,7 +149,7 @@ footer b{color:var(--gold2)}
   <div>
    <span class="tag">Your vision, our expertise.</span>
    <h1>From Your Plot to <em>Your Dream Home.</em></h1>
-   <p>Real estate consultancy, property buying and selling, map approval assistance, construction, plot completion, interior design, and renovation services in Noida, Greater Noida, Ghaziabad.</p>
+   <p>Real estate consultancy, property buying and selling, map approval assistance, construction, plot completion, interior design, and renovation services in Noida, Greater Noida and Ghaziabad.</p>
    <div class="cta">
     <a class="btn btn-gold" href="#contact">Request a Consultation</a>
     <a class="btn btn-line" href="tel:+919582154565">Call Now</a>
@@ -230,7 +242,7 @@ footer b{color:var(--gold2)}
 <section id="gallery"><div class="wrap">
  <span class="eyebrow">Project Gallery</span>
  <h2>A look at what we do.</h2>
- <div class="note">The images below are illustrative samples and do not show completed Advait Infra Realty projects. Photographs of our actual work will be added here.</div>
+ <div class="note">Images marked "Illustrative sample" are for illustration only and may not show completed Advait Infra Realty projects.</div>
  <div class="tabs" role="tablist" aria-label="Gallery categories">
   <button class="tab" role="tab" aria-selected="true" data-c="construction">Construction</button>
   <button class="tab" role="tab" aria-selected="false" data-c="interiors">Interiors</button>
@@ -263,7 +275,7 @@ footer b{color:var(--gold2)}
     <a class="btn btn-gold" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=SH-187%2C+Sector+145%2C+Noida">View on Map</a></div>
    <div class="box"><h3>Address 2</h3>
     <p>B-23, Sector 41, Noida</p>
-    <a class="btn btn-gold" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=B-23%2C+Sector+41%2C+Noida">View on Map</a></div>
+    <a class="btn btn-gold" target="_blank" rel="noopener" href="https://maps.app.goo.gl/qAQLd9SbV2ctnhEdA">View on Map</a></div>
   </div>
   <form id="f" novalidate>
    <h3>Send an Enquiry</h3>
